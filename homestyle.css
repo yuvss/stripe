@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #635bff, #00d4ff);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.btn{
+  background: rgb(255, 255, 255);
+  color: #ff9318;
+  padding: 7px 8px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.btn-primary {
+  background: white;
+  color: #635bff;
+  padding: 10px 60px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+}
