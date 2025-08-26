@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #635bff, #00d4ff);
+  background: linear-gradient(135deg, #17162f, #00d4ff);
   color: white;
 }
 
@@ -40,6 +40,27 @@ body {
   max-width: 800px;
   margin: auto;
   
+}
+#preview{
+
+  height:3%;
+  width: 10%;
+margin-top: -50px;
+border: solid;
+border-radius: 1rem;
+padding: 5px 20px;
+background: rgba(255, 255, 255, 0.1);
+border-style: none;
+font-weight: bold;
+font-size: 100%;
+
+}
+
+#head1{
+  
+  height: auto;
+  width:30%;
+  font-size: 400%;
 }
 .btn-primary {
   background: white;
