@@ -1,18 +1,31 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #17162f, #00d4ff);
+  background: linear-gradient(135deg, #17162f, #00d4ff, yellow, pink, orange);
   color: white;
 }
-
+/* navbar control */
 .navbar {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   padding: 20px 40px;
-  background: rgba(0,0,0,0.2);
-  position: sticky;
+  background: transparent;
   top: 0 ;
-  backdrop-filter: blur(10px);
+ margin: 20px auto; /* Default margin */
+  max-width: 1200px; /* Optional: limit navbar width */
+
+}
+@media (max-width: 600px) {
+  .navbar {
+    margin: 5px; /* Minimum margin for small screens */
+  }
+}
+
+@media (min-width: 1800px) {
+  .navbar {
+    margin: 40px auto; /* Maximum margin for very large screens */
+  }
 }
 
 .navbar nav a {
@@ -25,6 +38,7 @@ body {
   font-weight: bold;
   font-size: 1.5em;
 }
+/* contact sales */
 .btn{
   background: rgb(255, 255, 255);
   color: #ff9318;
@@ -42,9 +56,8 @@ body {
   
 }
 #preview{
-
-  height:3%;
-  width: 10%;
+height:3%;
+width: 10%;
 margin-top: -50px;
 border: solid;
 border-radius: 1rem;
@@ -57,10 +70,17 @@ font-size: 100%;
 }
 
 #head1{
-  
+  font-size: 370%;
   height: auto;
   width:30%;
-  font-size: 400%;
+  text-align: start;
+  color: rgba(0, 0, 0, 0.7); /* 0.3 is 30% opacity */
+}
+#para1{
+  
+  height: auto;
+  width:50%;
+  
 }
 .btn-primary {
   background: white;
