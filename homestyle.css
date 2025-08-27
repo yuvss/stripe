@@ -7,27 +7,25 @@ body {
 /* navbar control */
 .navbar {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 10px 20px;
   background: transparent;
   top: 0 ;
- margin: 20px auto; /* Default margin */
+  margin: 20px auto; /* Default margin */
   max-width: 1200px; /* Optional: limit navbar width */
 
 }
 @media (max-width: 600px) {
-  .navbar {
+  .navbar, .hero {
     margin: 5px; /* Minimum margin for small screens */
   }
 }
 
 @media (min-width: 1800px) {
-  .navbar {
+  .navbar, .hero {
     margin: 40px auto; /* Maximum margin for very large screens */
   }
 }
-
 .navbar nav a {
   margin: 0 15px;
   text-decoration: none;
@@ -51,36 +49,40 @@ body {
 .hero{
   text-align: center;
   padding: 100px 20px;
-  max-width: 800px;
-  margin: auto;
+  margin: 20px auto; /* Default margin */
+  max-width: 1200px; /* Optional: limit navbar width */
   
 }
 #preview{
-height:3%;
-width: 10%;
-margin-top: -50px;
+height:2%;
+width: 7%;
+text-align: center;
+margin-top: -8%;
 border: solid;
 border-radius: 1rem;
 padding: 5px 20px;
 background: rgba(255, 255, 255, 0.1);
 border-style: none;
 font-weight: bold;
-font-size: 100%;
+font-size: 80%;
 
 }
 
 #head1{
-  font-size: 370%;
+  font-size: 500%;
   height: auto;
-  width:30%;
+  width:490px;
   text-align: start;
-  color: rgba(0, 0, 0, 0.7); /* 0.3 is 30% opacity */
+  margin-top: unset;
+  margin-bottom: unset;
+  color: rgba(0, 0, 0, 0.7); /* 0.7 is 70% opacity */
 }
 #para1{
   
   height: auto;
   width:50%;
-  
+  color: rgba(0, 0, 0, 0.9); /* 0.9 is 90% opacity */
+
 }
 .btn-primary {
   background: white;
