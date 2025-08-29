@@ -94,3 +94,16 @@ font-size: 80%;
   border: none;
   text-align: center;
 }
+.container{
+  display: grid;
+  height: 30%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* background-color: white; */
+  justify-content: center;
+  align-items: center;
+}
+.container i, .item4{
+color: rgb(0, 0, 0);
+font-size: xx-large;
+}
