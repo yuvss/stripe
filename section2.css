@@ -1,27 +1,93 @@
-.section2{
-    padding: 0px 40px;
-    margin: auto;
-    max-width: 1000px;
-    box-sizing: border-box;
-}
-
-@media (max-width: 900px) {
-    .section2 {
-        padding: 40px 20px;
-        margin: 20px 10px;
-        max-width: 95vw;
-    }
-}
-
-@media (max-width: 600px) {
-    .section2 {
-        padding: 20px 5px;
-        margin: 10px 5px;
-        max-width: 100vw;
-    }
-}
-
+   /* <----section2-----> */
 .ms{
- color:#0732f8;  
- font-weight: bold; 
+  color: #0732f8;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.head2{
+  font-size: 300%;
+  height: auto;
+  width:40%;
+  text-align: start;
+  margin-top: unset;
+  margin-bottom: unset;
+  color: #090050;
+}
+.para2{
+  height: 20%;
+  width:45%;
+  color:rgb(41, 63, 41);
+  text-align: left;
+  line-height: 1.8;
+  font-size: 100%;
+  margin-top: 3%;
+}
+.payments{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+.fa-solid{
+  color: #6e5bff;
+  font-size: 30px;
+}
+.payments a{
+  color: #6e5bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.head3{
+  font-size: 300%;
+  height: auto;
+  width:40%;
+  text-align: start;
+  margin-bottom: unset;
+  color: #090050;
+}
+.para3{
+  height: 20%;
+  width:33%;
+  color:rgb(41, 63, 41);
+  text-align: left;
+  line-height: 1.8;
+  font-size: 100%;
+  margin-top: 3%;
+}
+.swp{
+  width: 9pc;
+  background-color: #008eff;
+  padding: 10px 10px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  margin-top: -50px;
+}
+.seealso{
+  margin-top: 3%;
+  color: rgb(41, 63, 41);
+  font-weight: bold;
+  text-align: left;
+  font-size: 100%;
+
+}
+.sap{
+    text-align: left;
+    font-size: 90%;
+    margin: 0px;
+    
+}
+.sap li{
+    color:rgb(41, 63, 41);
+    list-style: none;
+    line-height: 1.9;
+}
+.sap a{
+     text-decoration: none;
+     color: #008eff;
 }
