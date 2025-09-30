@@ -99,15 +99,17 @@ font-size: 80%;
 
 }
 .request{
-  margin-top: 5%;
-  width: 8pc;
-  background-color:#090050;
-  padding: 10px 10px;
+  display: block;
+  width: 180px;
+  background-color: #008eff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
   border-radius: 25px;
   font-weight: 700;
   font-size: 14px;
-  border: none;
-  text-align: center;
+  cursor: pointer;
+  margin-top: 70px;
 }
 /* <----logo section-----> */
 .container{
